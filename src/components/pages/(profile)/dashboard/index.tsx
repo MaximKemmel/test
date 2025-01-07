@@ -287,7 +287,7 @@ export function Dashboard({ seeAddress, seeUser }: DashboardProps) {
               {...Array(3)
                 .fill(1)
                 .map((_value, index: number) => (
-                  <div className="bg-white rounded-[10px] p-[20px] h-[225px] flex flex-col justify-between shadow-matrixCardShadow">
+                  <div className="bg-white rounded-[10px] p-[20px] h-[225px] flex flex-col justify-between shadow-matrixCardShadow" key={index}>
                     <div className="flex justify-between items-center">
                       <div
                         className={`${unbounded.className} text-[24px] text-[#CB9E31]`}
@@ -375,7 +375,7 @@ export function Dashboard({ seeAddress, seeUser }: DashboardProps) {
               {...Array(3)
                 .fill(1)
                 .map((_value, index: number) => (
-                  <div className="bg-white rounded-[10px] p-[20px] h-[225px] flex flex-col justify-between shadow-matrixCardShadow">
+                  <div className="bg-white rounded-[10px] p-[20px] h-[225px] flex flex-col justify-between shadow-matrixCardShadow"  key={index}>
                     <div className="flex justify-between items-center">
                       <div
                         className={`${unbounded.className} text-[24px] text-[#CB9E31]`}
@@ -430,7 +430,7 @@ export function Dashboard({ seeAddress, seeUser }: DashboardProps) {
               {...Array(9)
                 .fill(1)
                 .map((_value, index: number) => (
-                  <div className="bg-[#775E22] rounded-[10px] p-[20px] h-[225px] flex flex-col justify-between shadow-matrixCardShadow">
+                  <div className="bg-[#775E22] rounded-[10px] p-[20px] h-[225px] flex flex-col justify-between shadow-matrixCardShadow" key={index + 4}>
                     <div className="flex justify-between items-center">
                       <div className={`${unbounded.className} text-[24px]`}>
                         Lvl {index + 4}
@@ -466,7 +466,7 @@ export function Dashboard({ seeAddress, seeUser }: DashboardProps) {
               {...Array(4)
                 .fill(1)
                 .map((_value, index: number) => (
-                  <div className="bg-white rounded-[10px] p-[20px] h-[225px] flex flex-col justify-between shadow-matrixCardShadow">
+                  <div className="bg-white rounded-[10px] p-[20px] h-[225px] flex flex-col justify-between shadow-matrixCardShadow"  key={index}>
                     <div className="flex justify-between items-center">
                       <div
                         className={`${unbounded.className} text-[24px] text-[#CB9E31]`}
@@ -538,7 +538,7 @@ export function Dashboard({ seeAddress, seeUser }: DashboardProps) {
               {...Array(8)
                 .fill(1)
                 .map((_value, index: number) => (
-                  <div className="bg-[#775E22] rounded-[10px] p-[20px] h-[225px] flex flex-col justify-between shadow-matrixCardShadow">
+                  <div className="bg-[#775E22] rounded-[10px] p-[20px] h-[225px] flex flex-col justify-between shadow-matrixCardShadow"  key={index + 5}>
                     <div className="flex justify-between items-center">
                       <div className={`${unbounded.className} text-[24px]`}>
                         Lvl {index + 5}
