@@ -147,7 +147,7 @@ export default function Header({
               <div className="xl:flex hidden">
                 <LanguageSelect lang={lang} />
               </div>
-              <div onClick={onLogout} className="cursor-pointer xl:hidden flex">
+              <div onClick={onLogout} className="cursor-pointer xl:hidden flex shrink-0">
                 <Image src={logoutIcon} alt="log" className="w-6 h-6" />
               </div>
               {!pathname.includes("/home") ? (
