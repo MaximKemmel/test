@@ -135,7 +135,7 @@ export default function Header({
               {pathname.includes("/home") ? (
                 <Link
                   href={`/${locale}/1/dashboard`}
-                  className="relative items-center h-[57px] w-[230px] flex justify-center select-none bg-gradientYellow text-black text-base shadow-buttonShadow rounded-full"
+                  className="relative items-center h-[57px] w-[230px] md:hidden flex justify-center select-none bg-gradientYellow text-black text-base shadow-buttonShadow rounded-full"
                 >
                   {t("main.dashboard")}
                 </Link>
