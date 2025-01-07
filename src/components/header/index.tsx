@@ -59,10 +59,9 @@ export default function Header({
   const disconnect = useDisconnect();
   //const { closeAuth, isAuth } = useAuthStore();
   const { closeAuth } = useAuthStore();
-  const isAuth = false;
-  
-  const { setIsNavShow } = useNavStore();
+  const isAuth = true;
 
+  const { setIsNavShow } = useNavStore();
 
   const onLogout = async () => {
     if (isAuth) {
@@ -90,11 +89,11 @@ export default function Header({
             <div
               className={`relative py-5 text-lg flex justify-between ${
                 pathname.includes("/home")
-                  ? "container"
+                  ? "container gap-[50px]"
                   : "px-[20px] lg:px-[60px]"
               } items-center xl:border-0 border-b border-[#FFFFFF33] w-full`}
             >
-              <div className="flex items-center gap-4">
+              <div className={`flex items-center gap-4 ${pathname.includes("/home") ? "grow" : ""}`}>
                 <Link
                   className={`${ptsans.className} flex items-center gap-4 xs:gap-[5px]`}
                   href={`/${locale}/home`}
@@ -109,44 +108,50 @@ export default function Header({
                     100Х-Booster.io
                   </span>
                 </Link>
-                {pathname.includes("/home") && isAuth ? (
-                  <Link
-                    href={`/${locale}/1/dashboard`}
-                    className="flex cursor-pointer items-center gap-2 text-[#BCBCBC]"
+              </div>
+              {!pathname.includes("/home") ? (
+                <div className="xl:flex hidden">
+                  <Course className="xl:flex hidden" />
+                </div>
+              ) : null}
+              {!pathname.includes("/home") ? (
+                <div className="gap-[20px] h-[26px] xl:flex hidden">
+                  <BalanceWallet />
+                  <span className="h-full">|</span>
+                  <p
+                    onClick={(e) => {
+                      navigator?.clipboard?.writeText(`${address}`);
+                      const target = e.target as HTMLParagraphElement;
+                      target.style.color = "#64D121";
+                      setTimeout(() => (target.style.color = "inherit"), 1000);
+                    }}
+                    className="flex cursor-pointer items-center gap-[10px]"
                   >
-                    {t("main.dashboard")}
-                  </Link>
-                ) : null}
-              </div>
-              <div className="xl:flex hidden">
-                <Course className="xl:flex hidden" />
-              </div>
-              <div className="gap-[20px] h-[26px] xl:flex hidden">
-                <BalanceWallet />
-                <span className="h-full">|</span>
-                <p
-                  onClick={(e) => {
-                    navigator?.clipboard?.writeText(`${address}`);
-                    const target = e.target as HTMLParagraphElement;
-                    target.style.color = "#64D121";
-                    setTimeout(() => (target.style.color = "inherit"), 1000);
-                  }}
-                  className="flex cursor-pointer items-center gap-[10px]"
+                    <Sprite className="w-[25px] h-[25px]" name="wallet" />
+                    {`${address?.slice(0, 4)}...${address?.slice(-2)}`}
+                  </p>
+                </div>
+              ) : null}              
+              {pathname.includes("/home") ? (
+                <Link
+                  href={`/${locale}/1/dashboard`}
+                  className="relative items-center h-[57px] w-[230px] flex justify-center select-none bg-gradientYellow text-black text-base shadow-buttonShadow rounded-full"
                 >
-                  <Sprite className="w-[25px] h-[25px]" name="wallet" />
-                  {`${address?.slice(0, 4)}...${address?.slice(-2)}`}
-                </p>
-              </div>
+                  {t("main.dashboard")}
+                </Link>
+              ) : null}
               <div className="xl:flex hidden">
                 <LanguageSelect lang={lang} />
               </div>
               <div onClick={onLogout} className="cursor-pointer xl:hidden flex">
                 <Image src={logoutIcon} alt="log" className="w-6 h-6" />
               </div>
-              <div className="flex gap-5 items-center">
-                <Sprite className="w-[27px] h-[27px]" name="search" />
-                <Sprite className="w-[27px] h-[27px]" name="notification" />
-              </div>
+              {!pathname.includes("/home") ? (
+                <div className="flex gap-5 items-center">
+                  <Sprite className="w-[27px] h-[27px]" name="search" />
+                  <Sprite className="w-[27px] h-[27px]" name="notification" />
+                </div>
+              ) : null}
               <div
                 onClick={onLogout}
                 className="cursor-pointer items-center gap-2 text-white xl:flex hidden"
@@ -162,25 +167,29 @@ export default function Header({
                 <DrawerProfile />
               </div>*/}
             </div>
-            <div className="gap-[20px] h-[26px] xl:hidden flex z-[1] justify-center">
-              <BalanceWallet />
-              <span className="h-full text-[#FFFFFF33]">|</span>
-              <p
-                onClick={(e) => {
-                  navigator?.clipboard?.writeText(`${address}`);
-                  const target = e.target as HTMLParagraphElement;
-                  target.style.color = "#64D121";
-                  setTimeout(() => (target.style.color = "inherit"), 1000);
-                }}
-                className="flex cursor-pointer items-center gap-[10px]"
-              >
-                <Sprite className="w-[25px] h-[25px]" name="wallet" />
-                {`${address?.slice(0, 4)}...${address?.slice(-2)}`}
-              </p>
-            </div>
-            <div className="xl:hidden flex">
-              <Course className="xl:hidden flex" />
-            </div>
+            {!pathname.includes("/home") ? (
+              <div className="gap-[20px] h-[26px] xl:hidden flex z-[1] justify-center">
+                <BalanceWallet />
+                <span className="h-full text-[#FFFFFF33]">|</span>
+                <p
+                  onClick={(e) => {
+                    navigator?.clipboard?.writeText(`${address}`);
+                    const target = e.target as HTMLParagraphElement;
+                    target.style.color = "#64D121";
+                    setTimeout(() => (target.style.color = "inherit"), 1000);
+                  }}
+                  className="flex cursor-pointer items-center gap-[10px]"
+                >
+                  <Sprite className="w-[25px] h-[25px]" name="wallet" />
+                  {`${address?.slice(0, 4)}...${address?.slice(-2)}`}
+                </p>
+              </div>
+            ) : null}
+            {!pathname.includes("/home") ? (
+              <div className="xl:hidden flex">
+                <Course className="xl:hidden flex" />
+              </div>
+            ) : null}
           </div>
         ) : (
           <div

@@ -27,11 +27,11 @@ export default function LayoutProfile({
       <div className={`${isNavShow ? "overflow-hidden" : ""} flex flex-row jusify-between w-full`}>
         <Menu className="" />
         <div className="flex flex-col lg:gap-12 gap-[20px] p-10 pr-[60px] grow overflow-hidden">
-          <UserProfile />
-          {children}
+          {!isNavShow ? <UserProfile /> : null}
+          {!isNavShow ? children : null}
         </div>
       </div>
-      <Contacts />
+      {!isNavShow ? <Contacts /> : null}
       <footer className={"flex flex-col items-center py-14 bg-[#1c1c1c]"}>
         <p className={"text-xs font-normal"}>{t("home.copywrite.description")}</p>
       </footer>
