@@ -123,7 +123,7 @@ export function HomeResultPay({
             direction={"horizontal"}
             mousewheel={false}
             autoplay={{
-              delay: 1500,
+              delay: 1500000,
             }}
             loop
             className={"h-auto w-full overflow-hidden"}

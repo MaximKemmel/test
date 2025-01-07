@@ -66,7 +66,7 @@ export function HomeResultTable({
         direction={isMob ? "horizontal" : "vertical"}
         mousewheel={false}
         autoplay={{
-          delay: 1500,
+          delay: isMob ? 1500000 : 1500,
         }}
         loop
         className={
