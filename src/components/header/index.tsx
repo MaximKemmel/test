@@ -93,7 +93,11 @@ export default function Header({
                   : "px-[20px] lg:px-[60px]"
               } items-center xl:border-0 border-b border-[#FFFFFF33] w-full`}
             >
-              <div className={`flex items-center gap-4 ${pathname.includes("/home") ? "grow" : ""}`}>
+              <div
+                className={`flex items-center gap-4 ${
+                  pathname.includes("/home") ? "grow" : ""
+                }`}
+              >
                 <Link
                   className={`${ptsans.className} flex items-center gap-4 xs:gap-[5px]`}
                   href={`/${locale}/home`}
@@ -131,7 +135,7 @@ export default function Header({
                     {`${address?.slice(0, 4)}...${address?.slice(-2)}`}
                   </p>
                 </div>
-              ) : null}              
+              ) : null}
               {pathname.includes("/home") ? (
                 <Link
                   href={`/${locale}/1/dashboard`}
@@ -159,9 +163,11 @@ export default function Header({
                 <Image src={logoutIcon} alt="log" className="w-6 h-6" />
                 {t("main.out")}
               </div>
-              <div className="xl:hidden flex" onClick={() => setIsNavShow()}>
-                <Image src={menuIcon} alt="menu" className="w-6 h-6" />
-              </div>
+              {!pathname.includes("/home") ? (
+                <div className="xl:hidden flex" onClick={() => setIsNavShow()}>
+                  <Image src={menuIcon} alt="menu" className="w-6 h-6" />
+                </div>
+              ) : null}
               {/*<div className="hidden xs:flex items-center gap-5">
                 <Drawer seedUser={seedUser} />
                 <DrawerProfile />
