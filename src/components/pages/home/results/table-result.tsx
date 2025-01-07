@@ -66,7 +66,7 @@ export function HomeResultTable({
         direction={isMob ? "horizontal" : "vertical"}
         mousewheel={false}
         autoplay={{
-          delay: isMob ? 1500000 : 1500,
+          delay: 1500,
         }}
         loop
         className={
@@ -75,7 +75,7 @@ export function HomeResultTable({
             : `w-full h-[508px] xs:h-[728px] overflow-hidden swiper-vertical`
         }
         modules={[Autoplay]}
-        slidesPerView={isMob ? 3 : 5}
+        slidesPerView={isMob ? "auto" : 5}
         watchSlidesProgress={true}
         allowTouchMove={false}
       >
@@ -85,7 +85,7 @@ export function HomeResultTable({
               return (
                 <SwiperSlide key={index}>
                   {({ isActive, isPrev, isNext, isVisible }) => (
-                    <div className="!flex !justify-between lg:gap-8 gap-[5px] lg:py-8 p-2 w-full text-center">
+                    <div className="!flex !justify-between lg:gap-8 gap-[5px] lg:py-8 p-2 lg:w-full w-[30vw] text-center">
                       {isNext ? (
                         <div
                           className={`h-auto bg-[#D9DBE1] w-[1px] table-result-line`}

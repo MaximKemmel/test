@@ -123,19 +123,19 @@ export function HomeResultPay({
             direction={"horizontal"}
             mousewheel={false}
             autoplay={{
-              delay: 1500000,
+              delay: 1500,
             }}
             loop
             className={"h-auto w-full overflow-hidden"}
             modules={[Autoplay]}
-            slidesPerView={3}
+            slidesPerView={"auto"}
             watchSlidesProgress={true}
             allowTouchMove={false}
           >
             {last.map((el, index) => (
               <SwiperSlide key={index}>
                 {({ isActive, isPrev, isNext }) => (
-                  <div className="!flex !justify-between lg:gap-8 gap-[5px] lg:py-8 p-2 w-full text-center">
+                  <div className="!flex !justify-between lg:gap-8 gap-[5px] lg:py-8 p-2 lg:w-full w-[30vw] text-center">
                     {isNext ? (
                       <div
                         className={`h-auto bg-[#D9DBE1] w-[1px] table-result-line`}
