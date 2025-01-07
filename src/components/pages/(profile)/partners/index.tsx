@@ -228,7 +228,7 @@ export function Partners({ id }: { id: { id: string } }) {
           <div className="flex items-center justify-between">
             <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 w-full">
               {info.map((infos, index) => (
-                <div className="flex rounded-[15px] p-[1px] lg:h-[70px] h-[50px] bg-gradientDashboardRadial">
+                <div className="flex rounded-[15px] p-[1px] lg:h-[70px] h-[50px] bg-gradientDashboardRadial" key={index}>
                   <div className="flex items-center gap-[30px] rounded-[15px] bg-black p-[20px] w-full">
                     <p>{infos.name}</p>
                     <p className={`${unbounded.className} text-2xl`}>

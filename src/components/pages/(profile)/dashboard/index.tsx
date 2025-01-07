@@ -307,14 +307,14 @@ export function Dashboard({ seeAddress, seeUser }: DashboardProps) {
                       {...Array(3)
                         .fill(1)
                         .map((_value) => (
-                          <div className="bg-gradientDashboardRadial flex h-[40px] w-[40px] p-[6px] rounded-full">
+                          <div className="bg-gradientDashboardRadial flex h-[40px] w-[40px] p-[6px] rounded-full"  key={index}>
                             <div className="bg-white rounded-full w-full h-full" />
                           </div>
                         ))}
                       {...Array(2)
                         .fill(1)
                         .map((_value) => (
-                          <div className="bg-[#D9DBE1] h-[40px] w-[40px] rounded-full" />
+                          <div className="bg-[#D9DBE1] h-[40px] w-[40px] rounded-full"  key={index}/>
                         ))}
                     </div>
                     <div className="flex justify-between items-center">
@@ -395,7 +395,7 @@ export function Dashboard({ seeAddress, seeUser }: DashboardProps) {
                       {...Array(3)
                         .fill(1)
                         .map((_value) => (
-                          <div className="bg-gradientDashboardRadial flex h-[40px] w-[40px] p-[6px] rounded-full">
+                          <div className="bg-gradientDashboardRadial flex h-[40px] w-[40px] p-[6px] rounded-full"  key={index}>
                             <div className="bg-white rounded-full w-full h-full" />
                           </div>
                         ))}
@@ -617,14 +617,14 @@ export function Dashboard({ seeAddress, seeUser }: DashboardProps) {
                         {...Array(3)
                           .fill(1)
                           .map((_value) => (
-                            <div className="bg-gradientDashboardRadial flex h-[40px] w-[40px] p-[6px] rounded-full">
+                            <div className="bg-gradientDashboardRadial flex h-[40px] w-[40px] p-[6px] rounded-full"  key={index}>
                               <div className="bg-white rounded-full w-full h-full" />
                             </div>
                           ))}
                         {...Array(2)
                           .fill(1)
                           .map((_value) => (
-                            <div className="bg-[#D9DBE1] h-[40px] w-[40px] rounded-full" />
+                            <div className="bg-[#D9DBE1] h-[40px] w-[40px] rounded-full" key={index} />
                           ))}
                       </div>
                       <div className="flex justify-between items-center">
@@ -742,7 +742,7 @@ export function Dashboard({ seeAddress, seeUser }: DashboardProps) {
                         {...Array(3)
                           .fill(1)
                           .map((_value) => (
-                            <div className="bg-gradientDashboardRadial flex h-[40px] w-[40px] p-[6px] rounded-full">
+                            <div className="bg-gradientDashboardRadial flex h-[40px] w-[40px] p-[6px] rounded-full" key={index}>
                               <div className="bg-white rounded-full w-full h-full" />
                             </div>
                           ))}
