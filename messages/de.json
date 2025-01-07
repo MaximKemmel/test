@@ -1,0 +1,424 @@
+{
+  "Home": {
+    "home": {
+      "btn": {
+        "register": "Registrieren",
+        "join": "Mach mit"
+      },
+      "welcome": {
+        "title": "<span style='display: block;'>\n<span style='font-size: 60px'>Nr.1</span> unter\n</br><span style='-webkit-text-stroke: 1px rgba(200, 149, 57, 1); color: transparent;'>Smart contracts</span>\n</span>\n<span style='display: block;'>um Ihre</span>zu erstellen\n<span style='display: block; -webkit-text-stroke: 1px rgba(200, 149, 57, 1); color: transparent;'>online-Geschäft</span>",
+        "description": "Derzeit arbeiten wir mit dem Token <span style='color: #BF8A18;'>USDT</span>",
+        "users": "Benutzer",
+        "total_result": "Gesamtergebnis, USD"
+      },
+      "description": {
+        "title": "Dezentrales Network",
+        "description": "Die<span style='color: #BF8A18;'>Plattform</span> basiert auf intelligenten Verträgen, die Menschen aus aller Welt zusammenbringt und <span style='color: #BF8A18'>grenzenlose Möglichkeiten eröffnet</span> eines neuen wirtschaftlichen Finanzsystems",
+        "paragraph1": "Es gibt keine Abhängigkeit von Blockchain und ungerechtfertigten, überhöhten Transaktionsgebühren",
+        "paragraph2": "Außerdem sind wir unabhängig von einer bestimmten Währung! Wir können immer schnell auf die Variabilität der Kryptowährungswelt reagieren und in der Währung arbeiten, die derzeit am attraktivsten ist!"
+      },
+      "results": {
+        "title": "Ergebnisse der Partner",
+        "description": "<p>Alle Daten werden in der Blockchain gespeichert.</p>\n<p>Klicken Sie auf die Smart Contract-Adresse, um sie zu überprüfen.</p>\n<p>USDT Smart Contract-Adresse: <span style='color: #B7181A; text-decoration-line: underline;word-break: break-all;'>0x5acc84a3e955Bdd76467d3348077d003f00fFB97</span></p>",
+        "table": {
+          "register_date": "Anmeldedatum",
+          "balance": "USD-Saldo"
+        },
+        "pay": {
+          "title": "Erhaltene Auszahlung in Echtzeit",
+          "payment": "Auszahlung"
+        },
+        "static": {
+          "account_count": "Anzahl der Konten",
+          "sum_result": "Gesamtergebnis, USD"
+        }
+      },
+      "invite": {
+        "register_price": "Kosten für die Registrierung<br/> auf unserer Plattform",
+        "total_income": "Gesamtumsatz, wenn die Bedingung für das<br/> Line5-Programm erfüllt ist"
+      },
+      "techno": {
+        "title": "Perfekte Technologie",
+        "description": "Dezentrale Marketingprogramme laufen auf der revolutionären Smart-Contract-Technologie. Smart Contract Code <span style='color: #BF8A18;'>100x-crypto.co.in </span> ist vollständig öffentlich zugänglich. Sie können sicher sein, dass es sicher ist und langfristig erfolgreich funktioniert.",
+        "autonomy": {
+          "title": "Autonomie",
+          "desc": "Ökosystem <span style=\"color: #BF8A18;\">100x-crypto.co.in </span> basiert auf der Technologie von intelligenten Verträgen, die vollständig autonom sind und die Einwirkung des menschlichen Faktors ausschließen."
+        },
+        "conditions": {
+          "title": "Unveränderliche Bedingungen",
+          "desc": "Der Algorithmus wird in der Blockchain gespeichert, so dass niemand, selbst die Autoren der Idee, Ihre Transaktionen stören, rückgängig machen oder ändern kann."
+        },
+        "transparency": {
+          "title": "Transparenz",
+          "desc": "Der Smart Contract Code wird öffentlich gespeichert und jeder kann den gesamten Transaktionsverlauf jederzeit einsehen. Dies bietet ehrliche Bedingungen und zuverlässige Statistiken, auf die Sie sich verlassen können."
+        },
+        "decentralization": {
+          "title": "Dezentralisierung",
+          "desc": "Angeführt von <span style=\"color: #BF8A18;\">100x-crypto.co.in </span> Es gibt keine Vorgesetzten oder Administratoren, die es wert sind. Die Autoren der Idee sind die gleichen Teilnehmer der Plattform wie alle anderen."
+        },
+        "full_automation": {
+          "title": "Vollständige Automatisierung",
+          "desc": "Alle Transaktionen zwischen Community-Mitgliedern finden direkt von einer persönlichen Brieftasche zur anderen statt. Mitglieder haben keine Konten innerhalb des Systems, von denen Sie Auszahlungen vornehmen müssen, da FORSAGE Ihre Vermögenswerte nicht speichert."
+        },
+        "everything_online": {
+          "title": "100% online",
+          "desc": "Es gibt keine versteckten Kosten oder Servicegebühren. Das Gleichgewicht eines intelligenten Vertrags ist immer Null."
+        }
+      },
+      "road": {
+        "title": "Roadmap",
+        "april": {
+          "month": "April",
+          "info": [
+            "Entwicklung eines Smarttrakts, einer Website und eines Backoffice.",
+            "Logo- und Firmenstilgenehmigung"
+          ]
+        },
+        "may": {
+          "month": "Mai",
+          "info": [
+            "Tests durchführen"
+          ]
+        },
+        "june": {
+          "month": "Juni",
+          "info": [
+            "Implementierung eines Telegrammbots und Gestaltung von sozialen Netzwerken",
+            "Einen Cocktailpool mit Steak am Pancakeswap erstellen",
+            "Plattformstart"
+          ]
+        },
+        "july": {
+          "month": "Juli",
+          "info": [
+            "Auto-Untersuchung"
+          ]
+        },
+        "august": {
+          "month": "August",
+          "info": [
+            "DEX Aggregator"
+          ]
+        },
+        "september": {
+          "month": "September",
+          "info": [
+            "P2P-Tauscher"
+          ]
+        }
+      },
+      "user_cabinet": {
+        "title": "Intuitives Benutzerbüro",
+        "description": "In Ihrem persönlichen Konto können Sie eine interaktive Visualisierung Ihrer Struktur online ansehen. Sie können die Anzahl der Partner, den Status der aktiven Standorte und andere wichtige Daten in Echtzeit verfolgen."
+      },
+      "faq": {
+        "title": "Häufig gestellte Fragen",
+        "accordion": [
+          {
+            "name": "Warum ist FORSAGE die beste Alternative zum Handel?",
+            "list": [
+              "Der Kurs der Kryptowährung hat keinen Einfluss auf die Stabilität des Erhaltens der Belohnung.",
+              "Die Mindesteintrittsschwelle beträgt nur ein paar Tassen Kaffee.",
+              "Sie müssen nicht auf Zahlungen warten — die Mittel kommen sofort in Ihren Geldbeutel.",
+              "Die Belohnung hängt immer nur von der Arbeit des Benutzers ab.",
+              "Der Benutzer kann unbegrenzt belohnt werden, während er sein Team erweitert."
+            ]
+          },
+          {
+            "name": "Ist FORSAGE sicher?",
+            "list": [
+              "Der Kurs der Kryptowährung hat keinen Einfluss auf die Stabilität des Erhaltens der Belohnung.",
+              "Die Mindesteintrittsschwelle beträgt nur ein paar Tassen Kaffee.",
+              "Sie müssen nicht auf Zahlungen warten — die Mittel kommen sofort in Ihren Geldbeutel.",
+              "Die Belohnung hängt immer nur von der Arbeit des Benutzers ab.",
+              "Der Benutzer kann unbegrenzt belohnt werden, während er sein Team erweitert."
+            ]
+          },
+          {
+            "name": "Wie viel kostet die Anmeldung bei FORSAGE?",
+            "list": [
+              "Der Kurs der Kryptowährung hat keinen Einfluss auf die Stabilität des Erhaltens der Belohnung.",
+              "Die Mindesteintrittsschwelle beträgt nur ein paar Tassen Kaffee.",
+              "Sie müssen nicht auf Zahlungen warten — die Mittel kommen sofort in Ihren Geldbeutel.",
+              "Die Belohnung hängt immer nur von der Arbeit des Benutzers ab.",
+              "Der Benutzer kann unbegrenzt belohnt werden, während er sein Team erweitert."
+            ]
+          },
+          {
+            "name": "Wo kann ich Hilfe suchen, wenn ich nichts verstanden habe?",
+            "list": [
+              "Der Kurs der Kryptowährung hat keinen Einfluss auf die Stabilität des Erhaltens der Belohnung.",
+              "Die Mindesteintrittsschwelle beträgt nur ein paar Tassen Kaffee.",
+              "Sie müssen nicht auf Zahlungen warten — die Mittel kommen sofort in Ihren Geldbeutel.",
+              "Die Belohnung hängt immer nur von der Arbeit des Benutzers ab.",
+              "Der Benutzer kann unbegrenzt belohnt werden, während er sein Team erweitert."
+            ]
+          },
+          {
+            "name": "Benötige ich spezielle Kenntnisse oder Ausrüstung, um auf der Plattform zu arbeiten?",
+            "list": [
+              "Der Kurs der Kryptowährung hat keinen Einfluss auf die Stabilität des Erhaltens der Belohnung.",
+              "Die Mindesteintrittsschwelle beträgt nur ein paar Tassen Kaffee.",
+              "Sie müssen nicht auf Zahlungen warten — die Mittel kommen sofort in Ihren Geldbeutel.",
+              "Die Belohnung hängt immer nur von der Arbeit des Benutzers ab.",
+              "Der Benutzer kann unbegrenzt belohnt werden, während er sein Team erweitert."
+            ]
+          },
+          {
+            "name": "Kann ich in FORSAGE arbeiten, wenn ich nur eine Sprache kenne?",
+            "list": [
+              "Der Kurs der Kryptowährung hat keinen Einfluss auf die Stabilität des Erhaltens der Belohnung.",
+              "Die Mindesteintrittsschwelle beträgt nur ein paar Tassen Kaffee.",
+              "Sie müssen nicht auf Zahlungen warten — die Mittel kommen sofort in Ihren Geldbeutel.",
+              "Die Belohnung hängt immer nur von der Arbeit des Benutzers ab.",
+              "Der Benutzer kann unbegrenzt belohnt werden, während er sein Team erweitert."
+            ]
+          },
+          {
+            "name": "Wo soll ich anfangen?",
+            "list": [
+              "Der Kurs der Kryptowährung hat keinen Einfluss auf die Stabilität des Erhaltens der Belohnung.",
+              "Die Mindesteintrittsschwelle beträgt nur ein paar Tassen Kaffee.",
+              "Sie müssen nicht auf Zahlungen warten — die Mittel kommen sofort in Ihren Geldbeutel.",
+              "Die Belohnung hängt immer nur von der Arbeit des Benutzers ab.",
+              "Der Benutzer kann unbegrenzt belohnt werden, während er sein Team erweitert."
+            ]
+          }
+        ]
+      },
+      "official_channels": {
+        "title": "Offizielle Kanäle",
+        "tg_channel": "Telegram-Kanal",
+        "tg_chat": "Telegram-Chat",
+        "vk": "Vkontakte",
+        "youtube": "Youtube"
+      },
+      "mailing": {
+        "title": "Senden an Telegram",
+        "description": "Aktuelle Nachrichten <span style='font-weight: 700;'>100x-crypto.co.in </span>, praktische Anleitungen, die Geschichte der Welt der Kryptowährung von Community-Autoren",
+        "tg_bot": "Telegram Bot"
+      }
+    }
+},
+  "Dashboard": {
+    "main": {
+      "loading": "Lädt...",
+      "prev": "Vorheriger",
+      "next": "Nächste",
+      "send": "Senden",
+      "edit": "Bearbeiten",
+      "details": "Weitere Informationen",
+      "remove": "Entfernen",
+      "return": "Ziel wiederholen",
+      "all": "Alles",
+      "out": "Beenden",
+      "log": "Anmelden",
+      "dashboard": "Dashboard",
+      "add": "Hinzufügen",
+      "more": "Mehr sehen",
+      "filter": "Filter",
+      "navigation": "Navigation",
+      "subscription": "Abonnieren",
+      "activate": "Aktivieren",
+      "targetNull": "Es gibt keine Ziele",
+      "targetTitle": "Fortschritte beim Erreichen des Ziels",
+      "info1": "Partner",
+      "info2": "Befehl",
+      "info3": "Umsatz",
+      "info4": "Transaktionen wurden abgeschlossen",
+      "titleProgram": "Programme <span class=\"text-main-gold\">100x-Booster</span>",
+      "titleContract": "Verträge <span class=\" text-main-yellow\">100X-Booster </span>",
+      "titleReferral": "Zu <span class=\" text-main-yellow\">100X-Booster </span> einladen",
+      "dropdown": {
+        "head1": "Zum Zeitpunkt des Beginns der Zusammenarbeit",
+        "head2": "Momentan",
+        "val1": "Plattform",
+        "val2": "Großschreibung, $",
+        "val3": "Anzahl der Benutzer"
+      },
+      "table": {
+        "title": "Token-Statistiken",
+        "item1": "Token",
+        "item2": "Startdatum der Zusammenarbeit",
+        "item3": "Preis zum Startdatum, $",
+        "item4": "Spitzenpreis, $",
+        "item5": "Token-Wachstum",
+        "item6": "Aktueller Preis, $"
+      },
+      "table2": {
+        "item1": "Typ",
+        "item2": "Datum",
+        "item3": "Ebene",
+        "item4": "Hash"
+      },
+      "menu": {
+        "item1": "Büro",
+        "item2": "Partner",
+        "item3": "Statistik",
+        "item4": "Ziele",
+        "item5": "Automatisierung",
+        "item6": "Zusätzlicher Gewinn ",
+        "item7": "Werbematerialien",
+        "item8": "Webinare",
+        "item9": "Nachrichten",
+        "item10": "Neuigkeiten"
+      },
+      "programInfo": {
+        "item1Sub": "Überholen:",
+        "item1Text": "Sie haben die Ebene, die Ihr Downline-Partner aktiviert hat, nicht aktiviert. Diese Belohnung geht an den nächsten höheren Partner, der diese Stufe aktiviert hat.",
+        "item2Sub": "Einfrieren:",
+        "item2Text": "Dein Level ist voll und der 1. Zyklus ist abgeschlossen, aber der nächste, teurere Level ist noch nicht aktiviert.",
+        "item3Sub": "Zusätzlicher Gewinn",
+        "item3Text": " Ist eine Belohnung, die von unten zu Ihnen kommt, weil ein oder mehrere Downline-Partner ihre Gewinne verloren haben.",
+        "item4Sub": "Entgangener Vorteil",
+        "item4Text": " Ist eine Auszahlung, die dem übergeordneten aufgrund eines Einfrierens des Geländes zusteht (keine Aktivierung des nächsten, teureren Geländes)."
+      },
+      "links": {
+        "item1": "Telegram-Kanal",
+        "item2": "Telegram-Chat",
+        "item3": "Vkontakte",
+        "item4": "Instagram",
+        "item5": "Twitter",
+        "item6": "Youtube"
+      },
+      "messages": {
+        "newLevelConfirm": "Neue Stufe aktivieren",
+        "newLevelError": "Die Kaufbedingungen für das neue Level wurden nicht erfüllt"
+      }
+    },
+    "partners": {
+      "title": "Partner",
+      "info": {
+        "item1": "Links folgen:",
+        "item2": "Partner verbunden:"
+      },
+      "table": {
+        "item1": "Datum",
+        "item2": "Geldbörse",
+        "item3": "Vorteil",
+        "item4": "Partner"
+      }
+    },
+    "statistic": {
+      "title": "Finanzstatistiken",
+      "last": "Letzte Transaktionen",
+      "table": {
+        "item1": "Typ",
+        "item2": "Datum",
+        "item3": "Programm",
+        "item4": "Ebene",
+        "item5": "Hash"
+      }
+    },
+    "targets": {
+      "title": "Meine Ziele",
+      "last": "Letzte Transaktionen",
+      "completed": "Ziele erreicht",
+      "info": {
+        "item1": "Zielnamen",
+        "item2": "Beschreibung",
+        "item3": "Budget",
+        "item4": "Benötigter Betrag",
+        "item5": "Startdatum",
+        "item6": "Enddatum"
+      },
+      "card": {
+        "item1": "Ausgegebener Betrag",
+        "item2": "Startdatum",
+        "item3": "Fälligkeitsdatum"
+      }
+    },
+    "automation": {
+      "title": "Automatisieren",
+      "description": "Erweitere den Befehl 100X-Booster mit vorgefertigten Werbematerialien"
+    },
+    "additional": {
+      "title": "Zusätzlicher Gewinn",
+      "description": "Erweitere den Befehl 100X-Booster mit vorgefertigten Werbematerialien"
+    },
+    "promo": {
+      "title": "Werbematerialien",
+      "description": "Erweitere den Befehl 100X-Booster mit vorgefertigten Werbematerialien",
+      "tabs": {
+        "item1": "Banner",
+        "item2": "Präsentationen",
+        "item3": "Video"
+      }
+    },
+    "webinars": {
+      "title": "Webinare",
+      "start": "Start in",
+      "zone": "MSK"
+    },
+    "messages": {
+      "title": "Nachrichten",
+      "placeholder": "Text"
+    },
+    "news": {
+      "title": "Neuigkeiten"
+    }
+  },
+  "Modals": {
+    "login": {
+      "title": "In mein Konto einloggen",
+      "description": "Verwenden Sie die automatische Anmeldung, um auf alle Funktionen Ihres persönlichen Kontos zuzugreifen:",
+      "button": "Anmelden",
+      "input": "Geben Sie die Benutzer-ID ein, um Ihr Konto anzuzeigen",
+      "see": "ANZEIGEN",
+      "bottomText": "Melde dich an, wenn du noch nicht bei uns bist",
+      "bottomLink": "Melden Sie sich an 100x-crypto.co.in "
+    },
+    "register": {
+      "title": "Registrierung bei",
+      "referral": "Einladungs-ID",
+      "wallet": "Geldbörse",
+      "network": "Netzwerk",
+      "balance": "Saldo",
+      "approveWait": "Warten auf Aprove",
+      "approveConfirm": "Apropos Münzen",
+      "bottomText": "*Für die Registrierung ist ein 253 Token ($ 70) und ein 0.01 BNB für Provisionen erforderlich"
+    },
+    "auto": {
+      "title": "Automatische Registrierung",
+      "referral": "Überprüfen Sie die ID Ihres Einladers. Sie können es ändern, bevor Sie zur Zahlung übergehen:",
+      "button": "Registrieren",
+      "bottomText": "Melde dich an, wenn du noch nicht bei uns bist",
+      "bottomLink": "Melden Sie sich an 100x-crypto.co.in "
+    }
+  },
+  "Popup": {
+    "statics": {
+      "level": "Level",
+      "type": "Matrixtyp",
+      "direction": "Richtung",
+      "typeTx": "Transaktionstyp",
+      "placeholder": "Suche nach ID | Geldbörse",
+      "accept": "Übernehmen",
+      "reset": "Zurücksetzen"
+    },
+    "partners": {
+      "level": "Level",
+      "type": "Matrixtyp",
+      "direction": "Richtung",
+      "typeTx": "Transaktionstyp",
+      "placeholder": "Suche nach ID | Geldbörse",
+      "accept": "Übernehmen",
+      "reset": "Zurücksetzen"
+    },
+    "target": {
+      "title": "Zielname",
+      "content": "Beschreibung",
+      "value": "Beschreibung",
+      "valueText": "*Wenn dies Ihr neues Ziel ist, lassen Sie das Feld leer",
+      "demand": "Benötigter Betrag",
+      "BeginDate": "Startdatum",
+      "EndDate": "Ausführungsdatum",
+      "maxSize": "Maximale Dateigröße: 2 MB",
+      "format": "Verfügbare Formate:",
+      "bild": "Foto hochgeladen",
+      "assistant": "Sprachassistent",
+      "assistentText": "*Wählen Sie einen Assistenten aus, der Sie über die Dynamik der Ausführung des Ziels informiert",
+      "bottomText": "Ihre Ziele sind immer für alle sichtbar",
+      "button": "Hinzufügen"
+    }
+  }}

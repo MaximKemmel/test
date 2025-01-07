@@ -1,0 +1,427 @@
+{
+  "Home": {
+    "home": {
+      "btn": {
+        "register": "Registration",
+        "join": "Join"
+      },
+      "welcome": {
+        "title": "Earn money effortlessly",
+        "subtitle": "An ideal collaboration of blockchain technologies, partner programs and gameplay",
+        "description": "At the moment we are working with <span style='color: #BF8A18;'>USDT Token</span>",
+        "users": "Users",
+        "total_result": "Total result, USD"
+      },
+      "description": {
+        "title": "Decentralized Networking",
+        "description": "<span style='color: #BF8A18;'>платформа</span> на основе умных контрактов, которая объединяет людей со всего мира и <span style='color: #BF8A18'>открывает безграничные возможности</span> новой экономической финансовой системы",
+        "paragraph1": "No dependency on blockchains and unreasonable inflated transaction fees",
+        "paragraph2": "Also, we are not dependent on one specific currency! We can always quickly respond to the volatility of the cryptocurrency world and work in the currency that is currently the most attractive!"
+      },
+      "results": {
+        "title": "Partner results",
+        "description": "<p>All data is stored on the blockchain.</p>\n<p>Click on the smart contract address to check them out.</p>\n<p>USDT smart contract address: <span style='color: #B7181A; text-decoration-line: underline;word-break: break-all;'>0x5acc84a3e955Bdd76467d3348077d003f00fFB97</span></p>",
+        "table": {
+          "register_date": "Date of registration",
+          "balance": "USD balance"
+        },
+        "pay": {
+          "title": "Received payout in real time",
+          "payment": "Pay"
+        },
+        "static": {
+          "account_count": "Number of accounts",
+          "sum_result": "Total result, USD"
+        }
+      },
+      "invite": {
+        "register_price": "The cost of registering<br/> on our platform",
+        "total_income": "Total income when the condition for the Line5<br/> program is met"
+      },
+      "techno": {
+        "title": "Impeccable Technology",
+        "description": "Decentralized marketing programs are powered by revolutionary smart contract technology. The <span style='color: #BF8A18;'>100x-crypto.co.in smart contract code</span> is fully public. You can be sure of its safety and successful work in the long run.",
+        "autonomy": {
+          "title": "Autonomy",
+          "desc": "<span style=\"color: #BF8A18;\">The 100x-crypto.co.in ecosystem</span> is built around the technology of smart contracts, which are completely autonomous and eliminate the human factor."
+        },
+        "conditions": {
+          "title": "Immutable conditions",
+          "desc": "The algorithm is stored in the blockchain, so no one, even the authors of the idea, can interfere, cancel or change your transactions."
+        },
+        "transparency": {
+          "title": "Transparency",
+          "desc": "The smart contract code is kept in the public domain, and anyone can view the entire transaction history at any time. This ensures fair conditions and reliable statistics that you can rely on."
+        },
+        "decentralization": {
+          "title": "Decentralization",
+          "desc": "<span style=\"color: #BF8A18;\">100x-crypto.co.in</span> is not run by executives or administrators. The authors of the idea are the same platform participants as everyone else."
+        },
+        "full_automation": {
+          "title": "Full automation",
+          "desc": "All transactions between community members take place directly from one personal wallet to another. Participants do not have accounts within the system from which to withdraw funds, since FORSAGE does not store your assets."
+        },
+        "everything_online": {
+          "title": "100% online",
+          "desc": "No hidden costs or service fees. The smart contract balance is always zero."
+        }
+      },
+      "road": {
+        "title": "Road map",
+        "april": {
+          "month": "April",
+          "info": [
+            "Development of a smart contract, website and back office.",
+            "Approval of the logo and corporate identity"
+          ]
+        },
+        "may": {
+          "month": "May",
+          "info": [
+            "Conducting tests"
+          ]
+        },
+        "june": {
+          "month": "June",
+          "info": [
+            "Implementation of a Telegram bot and design of social networks",
+            "Creation of a cocktail pool with staking on Pancakeswap",
+            "The launch of the platform"
+          ]
+        },
+        "july": {
+          "month": "July",
+          "info": [
+            "Autofollow"
+          ]
+        },
+        "august": {
+          "month": "August",
+          "info": [
+            "DEX aggregator"
+          ]
+        },
+        "september": {
+          "month": "September",
+          "info": [
+            "P2P exchanger"
+          ]
+        }
+      },
+      "user_cabinet": {
+        "title": "Intuitive user interface",
+        "description": "In your personal account you can see an interactive visualization of your structure online. You can track the number of partners, the status of active sites and other important data in real time."
+      },
+      "faq": {
+        "title": "FAQ",
+        "accordion": [
+          {
+            "name": "Why is FORSAGE the best trading alternative?",
+            "list": [
+              "The exchange rate of the cryptocurrency does not affect the stability of receiving the reward.",
+              "The minimum entry threshold is just a couple of cups of coffee.",
+              "No need to wait for payments - the funds instantly come to your wallet.",
+              "The reward always depends only on the work of the user himself.",
+              "The user can receive rewards indefinitely while expanding his team."
+            ]
+          },
+          {
+            "name": "FORSAGE - is it safe?",
+            "list": [
+              "The exchange rate of the cryptocurrency does not affect the stability of receiving the reward.",
+              "The minimum entry threshold is just a couple of cups of coffee.",
+              "No need to wait for payments - the funds instantly come to your wallet.",
+              "The reward always depends only on the work of the user himself.",
+              "The user can receive rewards indefinitely while expanding his team."
+            ]
+          },
+          {
+            "name": "How much does it cost to register with FORSAGE?",
+            "list": [
+              "The exchange rate of the cryptocurrency does not affect the stability of receiving the reward.",
+              "The minimum entry threshold is just a couple of cups of coffee.",
+              "No need to wait for payments - the funds instantly come to your wallet.",
+              "The reward always depends only on the work of the user himself.",
+              "The user can receive rewards indefinitely while expanding his team."
+            ]
+          },
+          {
+            "name": "Where can I ask for help if I don't understand something?",
+            "list": [
+              "The exchange rate of the cryptocurrency does not affect the stability of receiving the reward.",
+              "The minimum entry threshold is just a couple of cups of coffee.",
+              "No need to wait for payments - the funds instantly come to your wallet.",
+              "The reward always depends only on the work of the user himself.",
+              "The user can receive rewards indefinitely while expanding his team."
+            ]
+          },
+          {
+            "name": "Do I need special knowledge or equipment to work on the platform?",
+            "list": [
+              "The exchange rate of the cryptocurrency does not affect the stability of receiving the reward.",
+              "The minimum entry threshold is just a couple of cups of coffee.",
+              "No need to wait for payments - the funds instantly come to your wallet.",
+              "The reward always depends only on the work of the user himself.",
+              "The user can receive rewards indefinitely while expanding his team."
+            ]
+          },
+          {
+            "name": "Can I work for FORSAGE if I only know one language?",
+            "list": [
+              "The exchange rate of the cryptocurrency does not affect the stability of receiving the reward.",
+              "The minimum entry threshold is just a couple of cups of coffee.",
+              "No need to wait for payments - the funds instantly come to your wallet.",
+              "The reward always depends only on the work of the user himself.",
+              "The user can receive rewards indefinitely while expanding his team."
+            ]
+          },
+          {
+            "name": "Where do I begin?",
+            "list": [
+              "The exchange rate of the cryptocurrency does not affect the stability of receiving the reward.",
+              "The minimum entry threshold is just a couple of cups of coffee.",
+              "No need to wait for payments - the funds instantly come to your wallet.",
+              "The reward always depends only on the work of the user himself.",
+              "The user can receive rewards indefinitely while expanding his team."
+            ]
+          }
+        ]
+      },
+      "official_channels": {
+        "title": "Official channels",
+        "tg_channel": "Telegram channel",
+        "tg_chat": "Telegram chat",
+        "vk": "Vkontakte",
+        "youtube": "Youtube"
+      },
+      "mailing": {
+        "title": "Newsletter in Telegram",
+        "description": "<span style='font-weight: 700;'>100x-crypto.co.in</span> latest news , how-to guides, crypto-world stories from community authors",
+        "tg_bot": "Telegram Bot"
+      }
+    }
+
+  },
+  "Dashboard": {
+    "main": {
+      "loading": "Loading...",
+      "prev": "Previous",
+      "next": "Next",
+      "send": "Send",
+      "edit": "Edit",
+      "details": "More details",
+      "remove": "Delete",
+      "return": "Repeat goal",
+      "all": "Total",
+      "out": "Exit",
+      "log": "Log in",
+      "dashboard": "Dashboard",
+      "add": "Add",
+      "more": "View more",
+      "filter": "Filter",
+      "navigation": "Navigation",
+      "subscription": "Subscribe",
+      "activate": "Activate",
+      "targetNull": "No goals",
+      "targetTitle": "Goal progress",
+      "info1": "Partners",
+      "info2": "Team",
+      "info3": "Turnover",
+      "info4": "Transactions completed",
+      "titleProgram": "Programs <span class=\"text-main-gold\">100x-Booster</span>",
+      "titleContract": "Contracts <span class=\"text-main-yellow\">100X-Booster </span>",
+      "titleReferral": "Invite to <span class=\"text-main-yellow\">100X-Booster </span>",
+      "dropdown": {
+        "head1": "On the date of the start of cooperation",
+        "head2": "At the moment",
+        "val1": "Platform",
+        "val2": "Capitalization, $",
+        "val3": "Number of users"
+      },
+      "table2": {
+        "item1": "Type",
+        "item2": "Date",
+        "item3": "Level",
+        "item4": "Hash"
+      },
+      "table": {
+        "title": "Token statistics",
+        "item1": "Token",
+        "item2": "Start date of cooperation",
+        "item3": "Price at the start date, $",
+        "item4": "Peak price, $",
+        "item5": "Token growth",
+        "item6": "Current price, $"
+      },
+      "menu": {
+        "item1": "Cabinet",
+        "item2": "Partners",
+        "item3": "Statistics",
+        "item4": "Goals",
+        "item5": "Automation",
+        "item6": "Additional profit ",
+        "item7": "Promo materials",
+        "item8": "Webinars",
+        "item9": "Messages",
+        "item10": "News"
+      },
+      "programInfo": {
+        "item1Sub": "Overtaking:",
+        "item1Text": "You did not activate the level that your downstream partner activated. This award goes to the nearest superior partner who has activated this level.",
+        "item2Sub": "Freeze:",
+        "item2Text": "Your level is fully filled and the 1st cycle has been completed, but the next, more expensive level has not yet been activated.",
+        "item3Sub": "Additional profit",
+        "item3Text": "is a reward that comes to you from below because one or more lower-level partners have lost their profits.",
+        "item4Sub": "Lost profit",
+        "item4Text": "is a payment that goes to a higher-level due to the freezing of the site (lack of activation of the next, more expensive one sites)."
+      },
+      "links": {
+        "item1": "Telegram channel",
+        "item2": "Telegram chat",
+        "item3": "Vkontakte",
+        "item4": "Instagram",
+        "item5": "Twitter",
+        "item6": "Youtube"
+      },
+      "messages": {
+        "newLevelConfirm": "Activate a new level",
+        "newLevelError": "The conditions for the purchase of a new level are not met"
+      }
+    },
+    "partners": {
+      "title": "Partners",
+      "info": {
+        "item1": "Link clicks:",
+        "item2": "Partners connected:"
+      },
+      "table": {
+        "item1": "Date",
+        "item2": "Wallet",
+        "item3": "Benefit",
+        "item4": "Partners"
+      }
+    },
+    "statistic": {
+      "title": "Financial statistics",
+      "last": "Recent transactions",
+      "table": {
+        "item1": "Type",
+        "item2": "Date",
+        "item3": "Program",
+        "item4": "Level",
+        "item5": "Hash"
+      }
+    },
+    "targets": {
+      "title": "My goals",
+      "last": "Recent transactions",
+      "completed": "Goals achieved",
+      "info": {
+        "item1": "Goal name",
+        "item2": "Description",
+        "item3": "Budget",
+        "item4": "Required amount",
+        "item5": "Start date",
+        "item6": "End date"
+      },
+      "card": {
+        "item1": "Amount spent",
+        "item2": "Start date",
+        "item3": "Completion date"
+      }
+    },
+    "automation": {
+      "title": "Automation",
+      "description": "Expand the 100X-Booster team using ready-made promotional materials"
+    },
+    "additional": {
+      "title": "Additional profit",
+      "description": "Expand the 100X-Booster team using ready-made promotional materials"
+    },
+    "promo": {
+      "title": "Promo materials",
+      "description": "Expand the 100X-Booster team using ready-made promotional materials",
+      "tabs": {
+        "item1": "Banners",
+        "item2": "Presentations",
+        "item3": "Videos"
+      }
+    },
+    "webinars": {
+      "title": "Webinars",
+      "start": "Start at",
+      "zone": "Moscow Time"
+    },
+    "messages": {
+      "title": "Messages",
+      "placeholder": "Text"
+    },
+    "news": {
+      "title": "News"
+    }
+  },
+  "Modals": {
+    "login": {
+      "title": "Login to your personal account",
+      "description": "To access all the functions of your personal account, use Automatic login:",
+      "button": "Log in",
+      "input": "To view your account, specify the user ID",
+      "see": "VIEW",
+      "bottomText": "Join if you are not already with by us",
+      "bottomLink": "Log in to 100x-crypto.co.in "
+    },
+    "register": {
+      "title": "Registration in",
+      "referral": "Invitee ID",
+      "wallet": "Wallet",
+      "network": "Network",
+      "balance": "Balance of funds",
+      "approveWait": "Waiting for payment",
+      "approveConfirm": "Apruv of coins",
+      "bottomText": "*To register, you must have 253 Tokens ($70) and 0.01 BNB for commissions"
+    },
+    "auto": {
+      "title": "Automatic registration",
+      "referral": "Check your invitee's ID. You can change it before you proceed to payment:",
+      "button": "Registration",
+      "bottomText": "Join if you are not with us yet",
+      "bottomLink": "Log in 100x-crypto.co.in "
+    }
+  },
+  "Popup": {
+    "statics": {
+      "level": "Level",
+      "type": "Matrix type",
+      "direction": "Direction",
+      "typeTx": "Transaction type",
+      "placeholder": "ID search | To the wallet",
+      "accept": "Apply",
+      "reset": "Reset"
+    },
+    "partners": {
+      "level": "Level",
+      "type": "Matrix type",
+      "direction": "Direction",
+      "typeTx": "Transaction type",
+      "placeholder": "ID search | To the wallet",
+      "accept": "Apply",
+      "reset": "Reset"
+    },
+    "target": {
+      "title": "Goal name",
+      "content": "Description",
+      "value": "Description",
+      "valueText": "*If this is your new goal, then leave the field empty",
+      "demand": "Required amount",
+      "BeginDate": "Start date",
+      "EndDate": "Completion date",
+      "maxSize": "Maximum file size: 2 MB",
+      "format": "Available formats:",
+      "image": "Photo uploaded",
+      "assistant": "Voice assistant",
+      "assistentText": "*Choose an assistant who will notify you about the dynamics of goal execution",
+      "bottomText": "Your goals are always visible to everyone",
+      "button": "Add"
+    }
+  }
+}
