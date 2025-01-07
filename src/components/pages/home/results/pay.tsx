@@ -126,7 +126,7 @@ export function HomeResultPay({
               delay: 1500,
             }}
             loop
-            className={"h-auto w-full overflow-hidden"}
+            className={"h-auto w-full overflow-hidden block"}
             modules={[Autoplay]}
             slidesPerView={3}
             watchSlidesProgress={true}

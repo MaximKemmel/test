@@ -89,7 +89,7 @@ export default function Header({
             <div
               className={`relative py-5 text-lg flex justify-between ${
                 pathname.includes("/home")
-                  ? "container gap-[50px]"
+                  ? "container md:gap-[50px] gap-[20px]"
                   : "px-[20px] lg:px-[60px]"
               } items-center xl:border-0 border-b border-[#FFFFFF33] w-full`}
             >
