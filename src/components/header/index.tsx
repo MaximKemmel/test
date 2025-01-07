@@ -139,7 +139,7 @@ export default function Header({
               {pathname.includes("/home") ? (
                 <Link
                   href={`/${locale}/1/dashboard`}
-                  className="relative items-center h-[57px] w-[230px] md:hidden flex justify-center select-none bg-gradientYellow text-black text-base shadow-buttonShadow rounded-full"
+                  className="relative items-center md:h-[57px] h-[35px] w-[230px] flex justify-center select-none bg-gradientYellow text-black text-base shadow-buttonShadow rounded-full"
                 >
                   {t("main.dashboard")}
                 </Link>
@@ -158,7 +158,7 @@ export default function Header({
               ) : null}
               <div
                 onClick={onLogout}
-                className="cursor-pointer items-center gap-2 text-white xl:flex hidden"
+                className="cursor-pointer items-center gap-2 text-white xl:flex hidden shrink-0"
               >
                 <Image src={logoutIcon} alt="log" className="w-6 h-6" />
                 {t("main.out")}
